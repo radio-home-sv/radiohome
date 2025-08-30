@@ -1,0 +1,60 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: url('fondo.png') no-repeat center center fixed;
+  background-size: cover;
+  font-family: Arial, sans-serif;
+  color: white;
+  text-align: center;
+}
+
+/* Logo en esquina superior derecha */
+.logo {
+  width: 180px;
+  height: auto;
+  position: absolute;
+  top: 15px;
+  right: 15px;
+}
+
+/* Botón siempre centrado */
+button {
+  background: #ff4500;
+  border: none;
+  padding: 20px 40px;
+  color: white;
+  font-size: 28px;
+  border-radius: 10px;
+  cursor: pointer;
+  margin: 100px auto 20px auto;
+  display: block;
+  position: relative;
+  left: 0;
+  right: 0;
+}
+
+button:hover {
+  background: #e63e00;
+}
+
+/* Ecualizador centrado */
+.equalizer {
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+  margin-top: 20px;
+}
+
+.led-col {
+  display: flex;
+  flex-direction: column-reverse;
+  gap: 3px;
+}
+
+.led {
+  width: 88px;   /* doble de ancho */
+  height: 8px;
+  background: #111;
+  border-radius: 2px;
+  opacity: 0.2;
+}
