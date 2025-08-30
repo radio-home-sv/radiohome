@@ -1,7 +1,7 @@
-# 🎶 Radio Home App
+# 🎶 Radio Home App (Responsive)
 
-Una aplicación web sencilla para escuchar **Radio Home** con un ecualizador LED en forma de **V**.  
-Desarrollada con **HTML, CSS y JavaScript**.
+Una aplicación web para escuchar **Radio Home** con un ecualizador LED en forma de **V**.  
+Ahora con diseño **responsive** (se adapta a celulares y tablets).
 
 ---
 
@@ -30,14 +30,12 @@ https://TUUSUARIO.github.io/radiohome
 
 ---
 
-## 📂 Archivos principales
+## 📱 Responsive Design
 
-- `index.html` → Página principal
-- `styles.css` → Estilos de la app
-- `script.js` → Lógica del ecualizador y reproducción
-- `logo.png` → Logo de Radio Home
-- `fondo.png` → Imagen de fondo
+- El **logo** se ajusta automáticamente en pantallas pequeñas.  
+- El **botón** ocupa todo el ancho en móviles.  
+- Las **barras del ecualizador** se hacen más delgadas en celulares.
 
 ---
 
-✨ Disfruta de tu aplicación de radio personalizada.
+✨ Disfruta de tu aplicación de radio en **PC, tablet y celular**.

@@ -17,7 +17,7 @@ body {
   right: 15px;
 }
 
-/* Botón siempre centrado */
+/* Botón centrado */
 button {
   background: #ff4500;
   border: none;
@@ -28,9 +28,6 @@ button {
   cursor: pointer;
   margin: 100px auto 20px auto;
   display: block;
-  position: relative;
-  left: 0;
-  right: 0;
 }
 
 button:hover {
@@ -52,9 +49,48 @@ button:hover {
 }
 
 .led {
-  width: 88px;   /* doble de ancho */
+  width: 88px;   /* PC → doble ancho */
   height: 8px;
   background: #111;
   border-radius: 2px;
   opacity: 0.2;
+}
+
+/* --- Adaptación a celular --- */
+@media (max-width: 768px) {
+  .logo {
+    width: 120px;
+    top: 10px;
+    right: 10px;
+  }
+
+  button {
+    width: 90%;
+    font-size: 22px;
+    padding: 15px;
+    margin: 80px auto 15px auto;
+  }
+
+  .led {
+    width: 40px;
+  }
+
+  .equalizer {
+    gap: 8px;
+  }
+}
+
+@media (max-width: 480px) {
+  .logo {
+    width: 100px;
+  }
+
+  button {
+    font-size: 18px;
+    padding: 12px;
+  }
+
+  .led {
+    width: 30px;
+  }
 }

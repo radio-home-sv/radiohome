@@ -4,7 +4,7 @@ const equalizer = document.getElementById('equalizer');
 
 let audioCtx, analyser, source, dataArray;
 
-const numCols = 5; // ahora solo 5 columnas
+const numCols = 5; // 5 columnas
 const ledsPerCol = 15;
 const cols = [];
 
